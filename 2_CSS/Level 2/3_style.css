@@ -16,7 +16,7 @@ div{
 }
 #box2{
   background-color: yellow;
-  /* display: none;   // this removes the box2 and the other element takes it space */
+  /* display: none;   // this removes the box2 and the other element occupy its space */
 }
 #box3{
   background-color: orange;
