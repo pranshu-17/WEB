@@ -5,7 +5,7 @@
 
 #try3{
   font-weight:500;
-  font-style: oblique;
+  font-style: italic;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -16,7 +16,7 @@
 
 #para1{
   /* gap between lines */
-  line-height:20px;
+  line-height:30px;
 }
 
 #para2{
