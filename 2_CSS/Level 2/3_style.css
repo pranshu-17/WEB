@@ -1,0 +1,23 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+div{
+  width: 200px;
+  height: 200px;
+  margin: 25px;
+  padding: 25px;
+  display:inline-block;
+}
+
+#box1{
+  background-color: pink;
+  /* visibility: hidden;  // this hides the element but preserves the space occupied by that element*/
+}
+#box2{
+  background-color: yellow;
+  /* display: none;   // this removes the box2 and the other element takes it space */
+}
+#box3{
+  background-color: orange;
+}

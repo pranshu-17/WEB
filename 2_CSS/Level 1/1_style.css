@@ -1,0 +1,29 @@
+h1{
+  color:lightgreen;
+  background-color: teal;
+}
+
+button{
+  color:blueviolet;
+  background-color: lightcyan;
+}
+
+body{
+  background-color: thistle;
+}
+
+/*universal selector : selects everything in the doc*/
+*{
+  font-style: italic;
+}
+
+/* id selector */
+#head1{
+  color:red
+}
+
+/* class selector */
+.class1{
+  background-color: grey;
+}
+

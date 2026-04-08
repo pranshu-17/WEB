@@ -1,0 +1,88 @@
+body{
+  text-align: center;
+}
+
+div{
+  height: 50px;
+  width: 250px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#container{
+  width: 1000px;
+  height: 500px;
+
+  display: flex;
+  
+  /* -------------------FLEX DIRECTION------------------------ */
+  flex-direction: row;  /*by default (left to right) */
+  /* flex-direction: row-reverse;    // layout reverses (right to left) 
+  /* flex-direction: column;         //top to bottom arrangement 
+  /* flex-direction: column-reverse; //bottom to top arrangement */
+
+  
+  /* -----------------JUSTIFY-CONTENT------------------------- */
+  /* justify-content: flex-start;    // content starts from left 
+  /* justify-content: flex-end;      // content starts from right
+  /* justify-content: space-around;  // content fills the space around the elements, first and last element have half space with walls of the flex container as compared to inner elements
+  /* justify-content: space-between; // same as above just the first and last elements start at the boundaries
+  /* justify-content: space-evenly;  // even spacing between the elements*/ 
+  justify-content: center;           /* content starts in the center
+
+
+  /* ------------------------GAP------------------------------- */
+  /* gives gap between the divs */
+  gap: 50px;
+
+  /* -----------------------FLEX-WRAP--------------------------- */
+  /*flex-wrap: nowrap; 
+      👉 Default setting
+      👉 All items stay in one single line
+      👉 They shrink to fit if needed 
+    flex-wrap: wrap;
+      👉 If items don’t fit → they go to next line 
+    flex-wrap: wrap-reverse;
+      👉 Same as wrap, BUT lines go upwards instead of downwards*/
+  flex-wrap: wrap;
+
+  /* ----------------------ALIGN-ITEMS--------------------------- */
+  /* Controls alignment of the items perpendicular to the main direction */
+  align-items: center;
+  
+  
+  /* ----------------------ALIGN-CONTENT-------------------------- 
+    👉 It controls spacing between rows (or columns)
+    👉 BUT only when there are multiple lines*/
+  /* align-content: flex-start;  // rows stick to the top of the flex-container*/
+  /* align-content: flex-end;    // rows stick to the the bottom */
+  /* align-content: center;      // rows stay in the center */
+   align-content: space-evenly;
+  /*align-content: space-around;
+    align-content: space-between; */
+
+
+
+}
+
+#box1{
+  background-color: aqua;
+} 
+
+#box2{
+  background-color: pink;
+  height: 150px;
+}
+
+#box3{
+  background-color: darkkhaki;
+  height: 70px;
+}
+
+#box4{
+  background-color: indianred;
+}
+
+#box5{
+  background-color: slateblue;
+}

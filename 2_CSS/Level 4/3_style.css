@@ -1,0 +1,22 @@
+a{
+  text-decoration: none;
+  color:black;
+  background-color: white;
+}
+
+li{
+  list-style: none;
+  display: inline;
+}
+
+a:hover {
+  color: red;
+}
+
+ul{
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}

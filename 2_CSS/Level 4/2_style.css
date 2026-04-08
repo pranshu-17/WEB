@@ -1,0 +1,50 @@
+body{
+  text-align: center;
+}
+
+div{
+  height: 100px;
+  width: 50px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#container{
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+
+}
+
+#box1{
+  background-color: aqua;
+  flex-grow: 2;
+} 
+
+#box2{
+  background-color: pink;
+  /* align-self: flex-start; */
+  height: 200px;
+  /* flex-shrink: 0; //box2 will maintain its size even if the container shrinks  */
+  flex-grow: 5;
+}
+
+#box3{
+  background-color: darkkhaki;
+  height: 75px;
+  /* flex-grow: 2; */
+}
+
+#box4{
+  background-color: indianred;
+  /* align-self: flex-end; */
+}
+
+#box5{
+  background-color: slateblue;
+  /* align-self :flex-start; */
+}

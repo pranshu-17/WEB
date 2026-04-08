@@ -1,0 +1,20 @@
+#outer{
+  height: 400px;
+  width: 400px;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+
+  /* center the inner div across cross axis */
+  align-items: center; 
+  
+  /* center the inner div across main axis */
+  justify-content: center;
+
+}
+
+#inner{
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}

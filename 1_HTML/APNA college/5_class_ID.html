@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="checkA">A</label>
+      <input type="checkbox" id="checkA" name="option" value="A" /><br />
+        
+      <label for="checkB">B</label> 
+      <input type="checkbox" id="checkB" name="option" value="B"/><br />
+      
+      <label for="checkC">C</label>
+      <input type="checkbox" id="checkC" name="option" value="C"/><br />
+      
+      <label for="checkD">D</label>
+      <input type="checkbox" id="checkD" name="option" value="D"/><br />
+      
+      <!--
+      1) required : User must select a city before submitting the form and if the user tries to submit without choosing the city, browser will not allow them and show them a prompt,ie, "Plz select an item in the list"
+      2) value = "" this ensures no fake value is passed to the backend
+      3) disabled : cannot select that particular option
+      4) selected : "select city" option shows as already selected(acts like placeholder) because select does not support placeholders
+      -->
+      <select name = "City" required> 
+        <option value = "" disabled selected>Select city</option>
+        <option value = "Delhi">Delhi</option>
+        <option value = "Lucknow">Lucknow</option>
+        <option value = "Banglore">Bangalore</option>
+        <option value = "Noida">Noida</option>
+      </select>
+      <br><br>
+
+      <textarea name = "feedback" id = "101" placeholder ="enter feedback here" rows = 5 cols = 30></textarea>
+      <br>
+      <input type = "submit">
+
+    </form>
+  </body>
+</html>

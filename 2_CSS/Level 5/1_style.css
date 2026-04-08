@@ -1,0 +1,28 @@
+div{
+  height: 100px;
+  width: 100px;
+  background-color: cyan;
+  border: 2px solid black;
+  
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.5s; */
+
+  /* SHORTHAND => transition: property name | duration | timing-function | delay */
+  transition: all 2s ease-in-out 0.5s
+}
+
+div:hover{
+  background-color: red;
+  color:white;
+  font-size: 20px;
+}
+
+/* active: click and hold */
+div:active{
+  background-color: pink;
+  color:orange;
+}
+
+

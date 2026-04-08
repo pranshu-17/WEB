@@ -1,0 +1,17 @@
+.loader{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 20px solid yellow ;
+  border-top: 20px solid skyblue;
+  animation: spin_animate 2s steps(10000) 0s infinite normal;
+}
+
+@keyframes spin_animate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}

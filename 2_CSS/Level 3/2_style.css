@@ -1,0 +1,38 @@
+*{
+  margin:0%;
+  padding: 0%;
+}
+
+div{
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#box1{
+  position: static;
+  top: 50px;
+  bottom: 20px;
+}
+
+#box2{
+  position: relative;
+  background-color: red;
+  top:40px;
+  right: 50px;
+  z-index: -2;
+}
+
+#box3{
+  position: fixed;
+  position: sticky;
+  top: 100px;
+  left: 10px;
+}
+
+#box4{
+  position: fixed;
+  top: 0px;
+}

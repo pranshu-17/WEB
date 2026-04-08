@@ -1,0 +1,45 @@
+*{
+  color:white;
+  text-decoration:none;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(37, 9, 63);
+}
+
+#navbar{
+  background-color:#0f1111;
+  height:60px;
+  border:3px solid white
+}
+
+#amazon{
+  font-size: 25px;
+}
+
+#logo{
+  color: #f08804;
+  padding-left:10px
+}
+
+#search{
+  background-color: #f08804;
+}
+
+#text{
+  color:black;
+}
+
+#account{
+  padding-left:200px;
+}
+
+#mycart{
+  padding-right:200px;
+  padding-left:200px;
+}
+
+#contact{
+  padding-right:200px;
+}

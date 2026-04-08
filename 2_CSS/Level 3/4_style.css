@@ -1,0 +1,9 @@
+div{
+  height: 100px;
+  width: 200px;
+  background-size: cover;
+  background-image: url(/2_CSS/Images/nature.jpg);
+  border-radius: 10px;
+  position: fixed;
+  right: 10px;
+}

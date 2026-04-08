@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="creation of a basic form using html">
+    <title>My first form</title>
+  </head>
+
+  <body>
+    <!--TASK 1
+    1) Name (text input)
+    2) Email (email input)
+    3) Password (password input)
+    4) Date of Birth (date input)
+    -->
+    <form>
+
+      <!--no need to use value attribute in such type of inputs because it is provided by user, however we can add value attribute, if we want to set a default value-->
+      <label for="_name"><strong>Name : </strong></label>
+      <input type="text" placeholder="Enter your name" id="_name" name="name"><br>
+
+      <label for="_email"><strong>Email : </strong></label>
+      <input type="email" placeholder="Enter your email id" id="_email" name="email"><br>
+
+      <label for="_password"><strong>Password : </strong></label>
+      <input type="password" placeholder="Enter password" id="_password" name="password"><br>
+
+      <label for="_dob"><strong>Date of Birth : </strong></label>
+      <input type="date" id="_dob" name="DOB"><br>
+
+      <!--TASK 2
+      1) Add: (using radio buttons)
+            Male  
+            Female
+            Other
+      -->
+      <strong>Gender : </strong>
+      <label>
+        <input type="radio" name="gender" value="male">Male
+      </label>
+
+      <label>
+        <input type="radio" name="gender" value="female">Female
+      </label>
+
+      <label>
+        <input type="radio" name="gender" value="other">Other
+      </label><br>
+      
+      <!--TASK 3
+      Skills (Checkboxes)
+        Add:  
+        HTML  
+        CSS
+        JavaScript
+        C++
+        -->
+
+      <strong>Skills : </strong><br>
+        
+      <label for="_html" style="display: block;">
+        <input type="checkbox" id="_html" name="skills" value="HTML">HTML
+      </label>
+      
+      <label for="_css" style="display: block;">
+        <input type="checkbox" id="_css" name="skills" value="CSS">CSS
+      </label> 
+      
+      <label for="_js" style="display:block">
+        <input type="checkbox" id="_js" name="skills" value="JS">JS
+      </label> 
+      
+      <label for="_cpp" style="display:block">
+        <input type="checkbox" id="_cpp" name="skills" value="CPP">CPP
+      </label> 
+      
+      
+      <!--TASK 4
+      1) Add a <select>:
+        Default: “Select City”
+        Options:
+        Delhi
+        Mumbai
+        Bangalore
+        Lucknow
+        -->
+        <strong>Select city : </strong>
+        <select name="city" required>
+          <option selected disabled>Select city</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Bangalore">Bangalore</option>
+          <option value="Lucknow">Lucknow</option>
+        </select>
+        <br>
+
+        <!--TASK 5
+        A <textarea> for user message
+        -->
+        <label for="feedback"><strong>Message : </strong></label>
+        <textarea placeholder="Enter your feedback" cols="50" rows="10" name="review" id="feedback"></textarea><br>
+        
+        <!--TASK 6
+        Add:
+        1) Reset button
+        2) Checkbox: “I agree to terms and conditions”
+        -->
+        
+        <label>
+          <input type="checkbox" name="terms" value="yes"> I agree to the terms and conditions.<br>
+        </label>
+        <input type="submit" value="Register" ><br>
+      <input type="reset" value="Clear form">
+    </form>
+      
+  </body>
+</html>
+
+<!--MISTAKES I DID AND IMPROVED UPON
+1) Enclosed all the inputs inside <form> tag, without which submit and reset buttons are just waste
+
+2) Added 'name' attribute in the inputs which plays a major role to send data to the backend. id is for browser while name is for backend to process the data.
+- Default value for checkbox, radio and select is 'on'
+
+3) Whenever you see:
+checkbox
+radio
+👉 Wrap inside <label>
+
+4) "name" = key (sent to backend)
+
+5) If user types, value comes from user
+   If user chooses, you must define value
+  -->
