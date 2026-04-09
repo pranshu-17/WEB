@@ -6,8 +6,8 @@ body {
 }
 
 .scene {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   perspective: 600px; /* THIS creates 3D feel */
 }
 
