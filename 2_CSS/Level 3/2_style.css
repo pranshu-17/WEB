@@ -12,15 +12,17 @@ div{
 }
 
 #box1{
+
+  /* no changes on using top, bottom and other properties  */
   position: static;
-  top: 50px;
+  top: 180px;
   bottom: 20px;
 }
 
 #box2{
   position: relative;
   background-color: red;
-  top:40px;
+  top: 50px;
   right: 50px;
   z-index: -2;
 }

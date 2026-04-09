@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +11,20 @@
   <!-- Position Property
   1) static : No changes in the position upon using top, bottom, left, right and z-index property because the position is set ot static ,ie, default position
   
-  2) relative : element is relative to itself (top, bottom etc properties will work)
+  2) relative : element moves relative to its original position and original space is still reserved (top, bottom etc properties will work)
 
-  3) absolute : positioned relative to its closest positioned ancestor (ancestor element should be non-static) 
+  3) absolute : positioned relative to its closest ancestor (ancestor element should be non-static) 
   
-  4) fixed : position is now relative to the browser. Always fixed and will stick to its position even if we scroll the page
+  4) fixed : fixed is positioned relative to the viewport (your screen). It is removed form normal flow
+      NOT parent
+      NOT page
+      👉 only screen
+    Real-world uses :
+      Navbar that stays on top
+      Chat button (bottom-right)
+      “Back to top” button
 
-  5) Sticky : similar to fixed. as soon as it reaches its positon it gets sticked on the page, no changes to its position on scrolling
+  5) Sticky : relative + fixed. as soon as it reaches its positon it gets sticked on the page, no changes to its position upon scrolling
   
   NOTE:
   fixed → always stuck to screen (no scrolling effect)
