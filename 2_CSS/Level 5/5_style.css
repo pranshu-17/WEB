@@ -6,6 +6,7 @@ div{
   position: absolute;
   top: 100px;
   left: 200px;
+
   /* animation-name: color_animate;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
@@ -16,7 +17,7 @@ div{
   /* Shorthand 
   animation: name | duration | timing function | delay | iteration count | direction
   */
-  animation: color_animate 4s linear 3s infinite normal;
+  animation: color_animate 6s linear 2s infinite normal;
 
   /* for blinking animation
   animation-duration: 0.25s;
@@ -40,6 +41,7 @@ div{
   }
   
   50%{
+    left: 30px;
     background-color: yellow;
   }
   
@@ -47,7 +49,4 @@ div{
     left:200px;
     background-color: black;
   }
-}
-
-@keyframes anime {
 }
