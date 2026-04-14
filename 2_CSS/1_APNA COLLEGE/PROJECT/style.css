@@ -4,7 +4,7 @@
   
   /*→ width & height include content + padding + border. Element does NOT grow beyond given size. padding/border adjust INSIDE the box */
   box-sizing: border-box;
-}
+} 
 a{
   text-decoration: none;
 }
@@ -25,7 +25,7 @@ a{
 }
 
 .logo{
-  background-image: url(/2_CSS/PROJECT/Images/amazon_logo.png);
+  background-image: url(Images/amazon_logo.png);
   height: 50px;
   width: 100%;
   background-size: cover;
@@ -153,7 +153,7 @@ span{
 /* Hero-Section */
 
 .hero-section{
-  background-image: url(/2_CSS/PROJECT/Images/hero_image.jpg);
+  background-image: url(Images/hero_image.jpg);
   background-size: cover;
   height: 350px;
   display: flex;
