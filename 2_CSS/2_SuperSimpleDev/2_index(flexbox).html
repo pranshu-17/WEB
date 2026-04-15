@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+</head>
+<body>
+    <div style="
+        display: flex;
+        flex-direction: row;
+        ">
+        <div style="background-color: lightblue;">
+            div1
+        </div>
+
+        <div style="background-color: pink;">
+            div2 
+        </div>
+    </div>
+
+    <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        column-gap: 14px;
+        ">
+        <div style="
+            background-color: lightblue;
+            width: 100px;
+        ">
+            100px
+        </div>
+
+        <div style="
+            background-color: pink;
+            flex: 1;
+        ">
+            flex: 1
+        </div>
+
+        <div style="
+            background-color: cyan;
+            flex: 2;
+        ">
+            flex: 2
+        
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+1) flexbox take their width with themselves if they move around
+
+2) Grid has rigid layout while flexbox has flexible layout
+
+-->

@@ -5,6 +5,160 @@
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+body{
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-bottom: 4000px;
+  background-color: rgb(247, 247, 247);
+}
+
+/* header */
+.header{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(225, 222, 222);
+  z-index: 100;
+}
+
+.left-section{
+  width: 150px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.youtube-logo{
+  height: 22px;
+}
+
+.hamburger-menu{
+  margin-left: 24px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.middle-section{
+  flex: 1;
+  margin-left: 30px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar{
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(186, 185, 185);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0,0,0,0.1);
+}
+
+.search-bar::placeholder{
+  font-size: 16px;
+}
+
+.search-button{
+  height: 36px;
+  width: 66px;
+  background-color: rgb(231, 231, 231);
+  border: 1px solid rgb(186, 185, 185);
+  margin-left: -1px;
+  margin-right: 10px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.search-button:hover{
+  cursor: pointer;
+}
+
+.search-button .tooltip{
+  position: absolute;
+  bottom: -30px;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip{
+  opacity: 1;
+}
+
+.search-icon{
+  height: 25px;
+  margin-top: 4px;
+}
+
+.voice-search-button{
+  height: 38px;
+  width: 38px;
+  background-color: rgb(248, 248, 248);
+  border: none;
+  border-radius: 50%;
+}
+
+.voice-search-icon{
+  height: 26px;
+  margin-top: 4px;
+}
+
+.right-section{
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+}
+
+.upload-icon{
+  height: 24px;
+}
+
+.youtube-apps-icon{
+  height: 24px;
+}
+
+.notifications-icon{
+  height: 24px;
+}
+
+.notifications-icon-container{
+  position: relative;
+}
+
+.notifications-count{
+  position: absolute;
+  top: -3px;
+  right: -5px;background-color: red;
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px 2px 6px;
+  border-radius: 10px;
+}
+
+.current-user-picture{
+  height: 32px;
+  border-radius: 50%;
+}
+
 /*  
 .thumbnail{
   width: 300px;
@@ -14,19 +168,15 @@
   border: 2px solid black;
 } */
 
-.search-bar{
-  display: block;
-}
-
 .thumbnail{
-  width: 300px;
+  width: 100%;
 }
 
 .video-title{
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .video-author, .video-stats{
@@ -39,30 +189,92 @@
   margin-bottom: 4px;
 }
 
-
-
-.video-preview{
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
-}
-
-.channel-picture{
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
-}
-
-.video-info{
-  display: inline-block;
-  width: 200px;
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .profile-picture{
-  width: 100%;
+  width: 36px;
   border-radius: 50%;
 }
 
 .thumbnail-row{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-time{
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+  right: 8px;
+  font-weight: 500;
+  height: 25px;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+}
+
+/* sidebar */
+
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidebar-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items:center;
+  height: 76px;
+  
+}
+
+.sidebar-link img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link:hover{
+  background-color: rgb(237, 234, 234);
+  cursor: pointer;
+}
+
+.sidebar-link div{
+  font-size: 10px;
 }
