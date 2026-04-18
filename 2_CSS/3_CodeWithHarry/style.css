@@ -1,0 +1,42 @@
+/* ==============GENERAL============= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+
+/* ============= HEADER ============ */
+
+main {
+    background-image: url(assets/images/bg.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+}
+
+
+
+
+
+
+/* =============== HERO ============== */
+
+
+
+
+
+
+
+
+
+/* ========== FOOTER ================ */
