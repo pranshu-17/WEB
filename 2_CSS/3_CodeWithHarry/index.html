@@ -13,8 +13,6 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <!-- Importing font awesome for icons  -->
@@ -30,11 +28,13 @@
         </div>
 
         <div class="nav-buttons">
-          <i class="fa-solid fa-language nav-lang-icon"></i>
-          <select name="Language" class="nav-select">
-            <option>English</option>
-            <option>Hindi</option>
-          </select>
+          <div class="nav-lang">
+            <i class="fa-solid fa-language nav-lang-icon"></i>
+            <select class="nav-select">
+              <option>English</option>
+              <option>Hindi</option>
+            </select>
+          </div>
           
           <button class="nav-signin">
             Sign In
@@ -50,19 +50,19 @@
     <main>
 
       <div class="content">
-        <div class="line1">
+        <div class="hero-title">
           Unlimited movies, shows, and more
         </div>
 
-        <div class="line2">
+        <div class="hero-description1">
           Starts at ₹149. Cancel at any time.
         </div>
 
-        <div class="line3">
-          Ready to watch? Enter your email to create or restart your membership
+        <div class="hero-description2">
+          Ready to watch? Enter your email to create or restart your<br> membership
         </div>
 
-        <div class="line4">
+        <div class="hero-login">
           <input type="text" placeholder="Email address">
           <button>Get Started &gt;</button>
         </div>
