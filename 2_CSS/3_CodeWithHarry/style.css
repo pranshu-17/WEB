@@ -6,6 +6,9 @@
     font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 
 /* ============= HEADER ============ */
 
@@ -13,41 +16,42 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    flex-wrap: wrap;
+    max-width: 1600px;
     width: 85%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 1.5rem;
 }
 
 .logo{
     height: 40px;
+    object-fit: contain;
 }
-
 
 .nav-buttons{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .nav-lang{
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 0.375rem;
 }
 
 .nav-select{
     background-color: rgba(0,0,0,0.7);
     color: white;
     border-radius: 3px;
-    height: 32px;
-    width: 130px;
+    height: 2rem;
+    width: 8.125rem;
     font-weight: 600;
     border: 0.5px solid white;
-    font-size: 14px;
+    font-size: 0.875rem;
     outline-offset: 1.8px;
-    margin-left: 5px;
+    margin-left: 0.3125rem;
 }
 
 .nav-lang-icon{
@@ -56,12 +60,12 @@
 }
 
 .nav-signin{
-    height: 32px;
-    width: 75px;
+    height: 2rem;
+    width: 4.7rem;
     background-color: red;
     color: white;
     border: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     border-radius: 3px;
     font-weight: 700;
     cursor: pointer;
@@ -96,12 +100,12 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 115vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
-    padding-top: 80px;
+    /* padding-top: 6.5rem; */
 }
 
 .content{
@@ -117,22 +121,22 @@ header{
 }
 
 .hero-title{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 900;
-    line-height: 50px;
+    line-height: 3.125rem;
 }
 
 .hero-description1{
-    line-height: 20px;
-    font-size: 16px;
+    line-height: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-top: 10px;
 }
 
 .hero-description2{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5rem;
     margin-top: 15px;
     margin-bottom: 15px;
     max-width: 500px;
@@ -160,21 +164,21 @@ header{
     text-align: left;
     flex: 1;
     min-width: 0;
-    height: 60px;
+    height: 3.75rem;
     color: white;
 }
 
 @media (max-width: 600px){
     .hero-login{
         flex-direction: column;
-        gap: 10px;
+        gap: 0.625rem;
     }
 
     .hero-login input,
     .hero-login button{
         width: 100%;
         border-radius: 6px;
-        height: 60px;
+        height: 3.75rem;
     }
 
     .hero-login input{
@@ -193,10 +197,10 @@ header{
 .hero-login button{
     color: white;
     background-color: #e50914;
-    height: 60px;
+    height: 3.75rem;
     width: 180px;
     border-radius: 6px;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 600;
     border: none;
     cursor: pointer;
@@ -212,5 +216,38 @@ header{
     transform: scale(0.98);
 }
 
+.curve-divider {
+  width: 100%;
+  height: 80px;
+  margin-top: -40px;
+  position: relative;
+}
+
+.curve-divider svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* glow only for the line */
+.curve-divider svg path:last-child {
+  filter: drop-shadow(0px -2px 6px rgba(255, 122, 24, 0.5));
+}
+
+.curve-divider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+
+  background: radial-gradient(
+    ellipse at center,
+    rgba(20, 40, 120, 0.4),
+    transparent 70%
+  );
+
+  pointer-events: none;
+}
 
 /* ========== FOOTER ================ */
