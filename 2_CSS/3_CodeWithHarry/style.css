@@ -10,7 +10,15 @@ a{
     text-decoration: none;
 }
 
+
+
+
+
 /* ============= HEADER ============ */
+
+
+
+
 
 .navbar{
     display: flex;
@@ -24,7 +32,7 @@ a{
 }
 
 .logo{
-    height: 40px;
+    height: 3rem;
     object-fit: contain;
 }
 
@@ -46,12 +54,16 @@ a{
     color: white;
     border-radius: 3px;
     height: 2rem;
-    width: 8.125rem;
+    width: 9.125rem;
     font-weight: 600;
     border: 0.5px solid white;
     font-size: 0.875rem;
-    outline-offset: 1.8px;
     margin-left: 0.3125rem;
+}
+
+.nav-select:focus{
+    outline: 3px solid white;
+    outline-offset: 1.8px;
 }
 
 .nav-lang-icon{
@@ -82,7 +94,17 @@ a{
 
 
 
+
+
+
+
 /* =============== HERO ============== */
+
+
+
+
+
+
 
 body{
     background-color: black;
@@ -107,6 +129,7 @@ header{
     align-items: center; 
     /* padding-top: 6.5rem; */
 }
+
 
 .content{
     color: white;
@@ -250,4 +273,16 @@ header{
   pointer-events: none;
 }
 
+
+
+
+
+
+
 /* ========== FOOTER ================ */
+
+
+
+
+
+
