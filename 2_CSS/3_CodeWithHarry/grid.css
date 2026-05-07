@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+}
+
+.container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "side article";
+}
+
+.item1{
+    grid-area: nav;
+}

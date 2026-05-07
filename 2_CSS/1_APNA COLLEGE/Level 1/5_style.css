@@ -3,8 +3,8 @@
 }
 
 #head1{
-  text-align:center;
-  text-transform:capitalize;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 p{
@@ -12,7 +12,7 @@ p{
 }
 
 #outer{
-  font-size:25px;
+  font-size: 25px;
 }
 
 #inner{
