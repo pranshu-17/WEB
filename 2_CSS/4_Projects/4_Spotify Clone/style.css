@@ -1,0 +1,44 @@
+/* ==============  GENERAL =============== */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: black;
+}
+
+/* ============ HEADER ============= */
+
+header{
+  padding: 15px;
+  display: flex;
+}
+
+.header-logo{
+  padding-left: 15px;
+  height: 55px;
+}
+
+
+
+
+
+
+/* ============== MAIN ================ */
+
+
+
+
+
+
+
+
+
+/* =============== FOOTER =================== */
