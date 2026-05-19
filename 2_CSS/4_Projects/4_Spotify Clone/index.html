@@ -12,10 +12,38 @@
 <body>
 	<!-------------- HEADER ------------>
 	<header>
-		<img src="assets/Logo and icons/logo.png" alt="logo" class="header-logo">
+		<div class="header-left"> 
+			<div class="header-logo-home">
+				<img src="assets/Logo and icons/logo.png" alt="logo">
+				<span class="header-logo-tooltip">
+					Home
+				</span>
+			</div>
+			<div class="header-search-bar">
+				<i class="fa-solid fa-magnifying-glass" style="color: rgb(126, 124, 124);"></i>
+				
+				<input type="text" placeholder="What do you want to play?" class="header-search-bar-input">
+				<div class="header-search-bar-input-tooltip">Ctrl + Shift + L</div>
+				
+				<div class="header-search-bar-browse">
+					<p>|</p>
+					<img src="assets/Logo and icons/browse.png" alt="browse">
+				</div>
+			</div>
+			
+		</div>
 
-		<div class="header-search"> 
-			<i class="fa-solid fa-magnifying-glass" style="color: rgb(94, 90, 90);"></i>
+		<div class="header-right">
+			<li><a href="#" class="header-icon-glow">Premium</a></li>
+			<li><a href="#" class="header-icon-glow">Support</a></li>
+			<li><a href="#" class="header-icon-glow">Download</a></li>
+			<li><p>|</p></li>
+			<li><i class="fa-solid fa-download" style="color: rgb(108, 104, 104);"></i><a href="" class="header-icon-glow">Install App</a></li>
+			
+			<div class="header-right-account">
+				<div class="header-account-sign-up"><li><a href="#" class="header-icon-glow">Sign up</a></li></div>
+				<button class="header-account-login">Log in</button>
+			</div>
 		</div>
 	</header>
 
