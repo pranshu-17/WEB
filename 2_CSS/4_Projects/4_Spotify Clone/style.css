@@ -3,7 +3,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box;   
 }
 
 a{
@@ -12,7 +12,7 @@ a{
 
 body{
   background-color: black;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
 }
 
 /* ============= HEADER ================ */
