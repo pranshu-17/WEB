@@ -181,10 +181,131 @@ nav{
 
 /* ============== MAIN ================ */
 
+main{
+  height: 80vh;
+  display: flex;
+}
 
+.main-left{
+  height: 100%;
+  width: 28vw;
+  background-color: #1f1f1f;
+  margin: 0 10px;
+  border-radius: 5px;
+  padding: 8px;
+}
 
+.left-content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+.left-top{
+  height: 17%;
+  display: flex;
+  padding: 10px 15px 0 15px;
+  justify-content: space-between;
+  color: white;
+}
 
+.left-top p{
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+
+.left-top .library{
+  padding-top: 5px;
+}
+
+.left-top button{
+  height: 40%;
+  width: 6rem;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  background-color: #434343dc;
+  font-weight: bolder;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.left-top button:hover{
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+.left-mid{
+  height: 50%;
+  background-color: orange;
+}
+
+.left-bottom{
+  height: 33%;
+  
+  background-color: pink;
+}
+
+.main-right{
+  height: 100%;
+  width: 72vw;
+  background: linear-gradient(#2d2d2d, rgba(24, 24, 24, 0.91));
+  border-radius: 5px;
+  margin-right: 10px;
+}
 
 
 /* =============== FOOTER =================== */
+
+footer{
+  background: linear-gradient(to right, rgb(240, 88, 113), rgb(98, 98, 226));
+  width: 98.7vw;
+  height: 8vh;
+  margin: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer-left{
+  height: 100%;
+  width: 44%;
+  color: white;
+  padding: 10px 13px;
+  font-size: 0.8rem;
+  line-height: 20px;
+
+}
+
+.footer-left .first{
+  font-weight: bolder;
+}
+
+.footer-right{
+  width: 12%;
+  height: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.footer-right button{
+  height: 70%;
+  width: 85%;
+  border-radius: 2rem;
+  border: none;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  transition: 0.2s;
+}
+
+.footer-right button:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: rgba(255, 252, 252, 0.819);
+}
