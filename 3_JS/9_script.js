@@ -10,4 +10,4 @@ console.log(a.toString());
  
 let d = new Number(20); // creates a number as an obje ct
 console.log(typeof(d));
-   
+     
