@@ -238,13 +238,123 @@ main{
 
 .left-mid{
   height: 50%;
-  background-color: orange;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.mid-top{
+  width: 95%;
+  height: 60%;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  color: white;
+  background-color: #74727264;
+}
+
+.mid-top .box1{
+  margin-bottom: 15px;
+}
+
+.mid-bottom .box1{
+  margin-bottom: 15px;
+}
+
+.mid-top .box2{
+  margin-bottom: 20px;
+}
+
+.mid-bottom .box2{
+  margin-bottom: 20px;
+}
+
+.mid-top button{
+  width: 125px;
+  height: 35px;
+  border-radius: 3rem;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.mid-bottom button{
+  width: 125px;
+  height: 35px;
+  border-radius: 3rem;    
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.mid-bottom{
+  width: 95%;
+  height: 60%;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  color: white;
+  background-color: #74727264;
+
 }
 
 .left-bottom{
   height: 33%;
+  padding: 20px;
   
-  background-color: pink;
+}
+
+.left-bottom li{
+  list-style-type: none;
+  font-size: 0.8rem;
+  color: #838181;
+  font-weight: 450;
+}
+
+.left-bottom li:hover{
+  cursor: pointer;
+}
+
+.left-bottom .box ul{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.left-bottom a{
+  color: #808080;
+  font-weight: 450;
+}
+
+.left-bottom a:hover{
+  text-decoration: underline ;
+  text-underline-offset: 3px;
+}
+
+.left-bottom .box3{
+  margin-bottom: 2rem;
+}
+
+.left-bottom .box4 button{
+  background-color: transparent;
+  color:#737272;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100px;
+  height: 35px;
+  border-radius: 3rem;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, 0.404);
+  transition: 0.2s;
+  font-weight: bolder;
+}
+
+.left-bottom .box4 button:hover{
+  transform: scale(1.05);
+  border: 2px solid white;
+  cursor: pointer;
 }
 
 .main-right{
@@ -259,7 +369,7 @@ main{
 /* =============== FOOTER =================== */
 
 footer{
-  background: linear-gradient(to right, rgb(240, 88, 113), rgb(98, 98, 226));
+  background: linear-gradient(to right, rgb(240, 88, 113), rgb(98, 98, 226) );
   width: 98.7vw;
   height: 8vh;
   margin: 8px 10px;
