@@ -19,6 +19,7 @@ for(let entries of Object.entries(user)){
     // console.log(entries);
 }
 
+// destructuring
 for(let [keys, value] of Object.entries(user)){
     console.log(keys, value);
 }
