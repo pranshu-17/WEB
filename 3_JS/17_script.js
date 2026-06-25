@@ -5,7 +5,7 @@ const user = {
     email: 1234
 }
 
-// for in loop has some drawbacks, so we use for of loop
+// for in loop has some drawbacks, so we mostly use for of loop (given below)
 
 for(let keys of Object.keys(user)){
     // console.log(keys);
