@@ -1,5 +1,5 @@
 /* NON-PRIMITIVE DATATYPES
--> typeof of all these non-primitive datatypes is object.
+-> type of all these non-primitive datatypes is object.
 */
 
 //array

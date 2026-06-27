@@ -14,4 +14,4 @@ const account = 1234;
 console.log(account);
 
 
-/* var a (here a has a global scope, it does not respect the functional scope) */
+/* var a (when we create a variable using this syntac then :  here a has a global scope, it does not respect the functional scope) */

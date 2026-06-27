@@ -9,7 +9,7 @@
 
 4) true, false, null and undefined are allocated memory inside the heap as soon as the program starts (automatically)
 
-5) when a memory adrress isn't pointed out by anyone in the heap, then the garbage collector deletes it.  
+5) when a memory adrress isn't pointed out by anyone in the heap, the garbage collector deletes it.  
  
 
 */
