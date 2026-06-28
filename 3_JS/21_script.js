@@ -45,7 +45,7 @@ const ans = [...arr, ...arr2]; // spread operator : used to spread elements, use
         const arr = [1,2,3,4]
         const arr2 = arr; // both arr and arr2 point to the same array
         const arr2 = [...arr] // a new array is created for arr2
-
+  
     b) merging arrays  
         const a = [1,2]
         const b = [3,4] 
