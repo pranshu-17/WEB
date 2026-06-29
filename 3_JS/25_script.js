@@ -1,4 +1,4 @@
-/* HOISTING IN JAVASCRIPT : Hoisting is a JavaScript behavior where variable and function declarations are available before their actual declaration in the code. For example, variables declared with var are hoisted and initialized with undefined, while let and const are hoisted but cannot be accessed before their declaration. Function declarations are fully hoisted, so they can be called before they are defined in the code."
+/* HOISTING IN JAVASCRIPT : Hoisting is a JavaScript behavior where variable and function declarations are available before their actual declaration in the code. For example, variables declared with var are hoisted and initialized with undefined, while let and const are hoisted but cannot be accessed before their declaration. Function declarations are fully hoisted, so they can be called before they are defined in the code.
 
 1) whenever we run a code in js => execution context is created
 
@@ -24,7 +24,7 @@
 // console.log(a); // 10
 
 
-
+  
 
 // In case of 'let' and 'const' => a = <uninitialised> (Temporal Dead Zone) :  we cant use these variables until and unless it gets some value
 // console.log(b); // throws error
