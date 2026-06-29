@@ -22,6 +22,7 @@
 const now = Date.now();
 console.log(now); // 1782040703419 (time in ms) counted from thursday jan 1, 1970
 const dates = new Date(now);
-console.log(dates.toLocaleDateString());
+console.log(dates.toLocaleString());
+
 
 

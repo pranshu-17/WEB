@@ -91,5 +91,8 @@ const ans = [...arr, ...arr2]; // spread operator : used to spread elements, use
         console.log(b); // 20
         console.log(rest); // [30,40,50] 
 
-    c) 
+    c) Object Destructuring
+
+
+=> rest is more like packing a bag, while spread is like unpacking it 
 */

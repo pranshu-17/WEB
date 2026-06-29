@@ -2,8 +2,8 @@
 
 /* ----------- CREATION -------------- */
 // const str1 = "Pranshu"; // we cant use next line
-// const str2 = ' pranshu pallavi';
-// const str3 = `I will be an SDE very soon
+// const str2 = 'pranshu pallavi';
+// const str3 = `I will be an SDE very soon 
 // lets go`;
 
 // console.log(str3);
@@ -15,7 +15,7 @@
 
 const str = `hello coder army code code`;
 // console.log(str.length);
-// console.log(str.toUpperCase()); // its a copy string , original string remains intact
+// console.log(str.toUpperCase()); // HELLO CODER ARMY CODE CODE // its a copy string , original string remains intact
 // console.log(str);      
 
 
@@ -25,13 +25,13 @@ const str = `hello coder army code code`;
 // console.log(str.lastIndexOf('code')); // return the last index
 
 
-// console.log(str.includes('code'));
-// console.log(str.includes('codery'));
+// console.log(str.includes('code')); // true
+// console.log(str.includes('codery')); // false
 
 
 const str1 = `hello brother, i am learning js`;
 // console.log(str1.slice(2,7)); // used to slice a string
-// console.log(str1.slice(3));
+// console.log(str1.slice(3,10));
 // console.log(str1.substring(2,7)); // only diff between substring and slice method is that slice supports negative arguments while substring doesn't
 
 
@@ -45,8 +45,8 @@ const b = "pranshu";
 
 
 const text = `hello coder coder coder`;
-// console.log(text.replace('coder', 'coding'));
-// console.log(text.replaceAll('coder', 'coding'));
+// console.log(text.replace('coder', 'coding')); // replaces the first occurence 
+// console.log(text.replaceAll('coder', 'coding')); // replaces all
 
 
 
