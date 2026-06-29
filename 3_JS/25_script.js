@@ -29,7 +29,7 @@
 // In case of 'let' and 'const' => a = <uninitialised> (Temporal Dead Zone) :  we cant use these variables until and unless it gets some value
 // console.log(b); // throws error
 // const b = 10;
-// console.log(b);
+// console.log(b);   
 
 
 // example (same for const and let);
