@@ -30,7 +30,7 @@
 // console.log(b); // throws error
 // const b = 10;
 // console.log(b);   
-
+ 
 
 // example (same for const and let);
 
