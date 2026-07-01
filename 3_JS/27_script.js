@@ -34,7 +34,7 @@ function bank(){
   
 
 
-/* NOTE 
+/* NOTE
 - let: value can be reassigned
 - const : value cant be reassigned
 
