@@ -20,4 +20,4 @@ user2 = {
 }
 
 user2.greeting = user.greeting;
-user2.greeting(); // this will print pallavi(becuase this keyword is used inside greeting function of user, if we would had used user.name, it would had printed 'pranshu')
+user2.greeting(); // this will print pallavi(because `this` keyword is used inside greeting function of user, if we would had used user.name, it would had printed 'pranshu')

@@ -42,4 +42,4 @@ console.log(user3.address.city);
 
 
     //============= NOTE ===========
-// dont use structured clone in case ur object contains functions, as it can not manage them
+// dont use structured clone in case ur object contains functions, because it can't manage them

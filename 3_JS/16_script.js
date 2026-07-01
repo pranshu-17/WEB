@@ -1,5 +1,5 @@
 /* =============== OBJECT ================= */
-// CRUD : Creat, Read, Update & Delete
+// CRUD : Create, Read, Update & Delete
 
 // const user = {
 //     name: "Pranshu",
@@ -45,15 +45,15 @@ for(let keys in user){
 }
 
 // destructuring of an object
-// const {name, age} = user;
-// console.log(name, age);
-const {name: userName, age: userAge} = user;
-console.log(userName, userAge);
+const {name, amount} = user;
+// console.log(name, amount); // Pranshu 3400
+// const {name: userName, age: userAge} = user;
+// console.log(userName, userAge);
 
 // destructuring an array
 const arr = [10,20,30,40,50,60];
 const [first, second] = arr;
-console.log(first, second); // first and second are just variables, they can be anything
+console.log(first, second); // first and second are just variable names, they can be anything
 
 
 
