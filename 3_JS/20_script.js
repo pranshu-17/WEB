@@ -9,7 +9,7 @@ const user = {
 console.log(user[0]);
 console.log(user["2"]);
 
-// keys can be string or symbol
+// keys can be string or symbol   
 const sym = Symbol("id");
 const user2 = {
     name: "pallavi",
