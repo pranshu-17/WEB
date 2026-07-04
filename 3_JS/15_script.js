@@ -42,4 +42,3 @@ const arr2 = [10, 18, 3, 100, 43, 15, 1];
 // const a = arr.flat(3); // 3 level flat
 // const a = arr.flat(Infinity); // infinite level flat
 // console.log(a);
-

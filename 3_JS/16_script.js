@@ -8,7 +8,7 @@
 //     email: "abc@gmail.com",
 //     "home address": "UP"
 // }
-
+   
 // console.log(user);
 // console.log(user.age);
 
