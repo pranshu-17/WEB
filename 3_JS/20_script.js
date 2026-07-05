@@ -17,7 +17,7 @@ const user2 = {
     0: 200,
     2: "rohan",
     [sym]: "HI, everyone"
-}
+}   
 
 // console.log(user2.sym);  || wrong
 console.log(user2[sym]);
