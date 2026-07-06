@@ -12,7 +12,7 @@ console.log(user["2"]);
 // keys can be string or symbol   
 const sym = Symbol("id");
 const user2 = {
-    name: "pallavi",  
+    name: "pallavi",
     age: 20,
     0: 200,
     2: "rohan",
