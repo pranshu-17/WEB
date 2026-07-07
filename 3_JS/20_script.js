@@ -13,9 +13,9 @@ console.log(user["2"]);
 const sym = Symbol("id");
 const user2 = {
     name: "pallavi", 
-    age: 20,
+    age: 20,  
     0: 200,
-    2: "rohan",
+    2: "rohan", 
     [sym]: "HI, everyone"    
 }
 
