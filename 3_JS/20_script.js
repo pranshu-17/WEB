@@ -16,8 +16,8 @@ const user2 = {
     age: 20,
     0: 200,
     2: "rohan",
-    [sym]: "HI, everyone"
-}   
+    [sym]: "HI, everyone"    
+}
 
 // console.log(user2.sym);  || wrong
 console.log(user2[sym]);
