@@ -21,4 +21,4 @@ const user2 = {
 
 // console.log(user2.sym);  || wrong
 console.log(user2[sym]);
- 
+   
