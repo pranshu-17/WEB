@@ -4,7 +4,7 @@
 
 //array
 let arr = [1, 2, 3, 'pranshu', true];
-console.log(arr);
+console.log(arr);   
   
 //object
 let user = {
