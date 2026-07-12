@@ -5,7 +5,7 @@
 //array
 let arr = [1, 2, 3, 'pranshu', true];
 console.log(arr);
-
+  
 //object
 let user = {
     name: "Pranshu",
