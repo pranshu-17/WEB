@@ -18,7 +18,7 @@ let user = {
 function add(){
     console.log("hi");
 }
-add();
+add(); 
 
 //in js we can store a function inside a variable
 let s = function add(){
