@@ -7,7 +7,7 @@ let arr = [1, 2, 3, 'pranshu', true];
 console.log(arr);   
   
 //object
-let user = {
+let user = {  
     name: "Pranshu",
     account: 1234,
     age: 18 
