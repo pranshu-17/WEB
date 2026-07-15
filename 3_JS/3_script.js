@@ -12,7 +12,7 @@ let user = {
     account: 1234,
     age: 18
 }
-
+ 
 
 //function
 function add(){
