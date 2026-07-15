@@ -14,9 +14,9 @@ let user = {
 }
    
 
-//function
+//function 
 function add(){
-    console.log("hi");
+    console.log("hi"); 
 }
 add(); 
 
