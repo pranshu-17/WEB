@@ -11,14 +11,14 @@ let user = {
     name: "Pranshu",
     account: 1234,
     age: 18
-}
+} 
 
 
 //function 
 function add(){
     console.log("hi"); 
 }
-add(); 
+add();
 
 //in js we can store a function inside a variable
 let s = function add(){
