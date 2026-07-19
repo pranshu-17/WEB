@@ -11,12 +11,12 @@ let user = {
     name: "Pranshu",
     account: 1234,
     age: 18
-} 
+}     
 
 
 //function 
 function add(){
-    console.log("hi"); 
+    console.log("hi");  
 }
 add();
 
