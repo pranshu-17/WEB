@@ -14,17 +14,17 @@ let user = {
 }
 
 
-//function 
+//function syntax
 function add(){
     console.log("hi");  
 }
 add();
 
-//in js we can store a function inside a variable
+//in js we can store a function inside a variable 
 let s = function add(){
     console.log("hi");
 }
-s();
+s(); 
 console.log(s);
 
 console.log(typeof(s));
