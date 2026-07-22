@@ -11,7 +11,7 @@ let user = {
     name: "Pranshu",
     account: 1234,
     age: 18
-}     
+}
 
 
 //function 
