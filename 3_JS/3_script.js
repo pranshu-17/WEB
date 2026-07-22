@@ -4,7 +4,7 @@
 
 //array
 let arr = [1, 2, 3, 'pranshu', true];
-console.log(arr);   
+console.log(arr);
   
 //object
 let user = {  
@@ -19,7 +19,7 @@ function add(){
     console.log("hi");  
 }
 add();
-
+ 
 //in js we can store a function inside a variable 
 let s = function add(){
     console.log("hi");
